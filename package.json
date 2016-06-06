@@ -1,6 +1,6 @@
 {
   "name": "slush-component",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Slush generator for web components.",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/andrewshawcare/slush-component#readme",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0"
   }
 }
