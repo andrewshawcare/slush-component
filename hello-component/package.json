@@ -1,0 +1,22 @@
+{
+  "name": "hello-component",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "description": "A component that says hello.",
+  "keywords": ["hello", "component"],
+  "dependencies": {
+    "requirejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jsdom": "^8.2.0"
+  },
+  "component": {
+    "data": {
+      "name": "World"
+    }
+  }
+}
