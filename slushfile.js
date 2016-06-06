@@ -17,7 +17,7 @@ gulp.task("default", (done) => {
       message: "Create component?"
     }
   ], function (answers) {
-    if (!ansers.confirm) {
+    if (!answers.confirm) {
       return done();
     }
 
