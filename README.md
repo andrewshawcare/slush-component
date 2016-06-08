@@ -2,6 +2,8 @@
 
 A [Slush](http://slushjs.github.io/#/) generator for web components.
 
+![Screenshot](screenshot.png)
+
 ## Introduction
 
 Web components should be [simple](https://www.infoq.com/presentations/Simple-Made-Easy). To that end, this generator creates the following files:
