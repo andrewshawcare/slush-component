@@ -1,5 +1,17 @@
 # slush-component
+
 A [Slush](http://slushjs.github.io/#/) generator for web components.
+
+## Introduction
+
+Web components should be [simple](https://www.infoq.com/presentations/Simple-Made-Easy). To that end, the components this generator creates the following files:
+
+* `docker-compose.yml`: A [Docker Compose](https://docs.docker.com/compose/) file that defines an instance of the [component-workshop](https://github.com/andrewshawcare/component-workshop).
+* `index.js`: The component implementation.
+* `package.json`: The [NPM](https://www.npmjs.com/) metadata and dependencies.
+* `README.md`: Something for your users to read by candlelight in the bath.
+* `spec.js`: Tests for the component.
+* `test.js`: A [Jasmine](http://jasmine.github.io/2.4/introduction.html) test runner (invoked via `npm test`).
 
 ## Getting Started
 
@@ -9,7 +21,7 @@ A [Slush](http://slushjs.github.io/#/) generator for web components.
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
 
-2. Using Homebrew, install [NPM](https://www.npmjs.com/) and [Docker Toolbox](https://www.docker.com/products/docker-toolbox):
+2. Using Homebrew, install NPM and [Docker Toolbox](https://www.docker.com/products/docker-toolbox):
 
   ```shell
   brew install npm docker-toolbox
