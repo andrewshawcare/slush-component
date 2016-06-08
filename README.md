@@ -4,7 +4,7 @@ A [Slush](http://slushjs.github.io/#/) generator for web components.
 
 ## Introduction
 
-Web components should be [simple](https://www.infoq.com/presentations/Simple-Made-Easy). To that end, the components this generator creates the following files:
+Web components should be [simple](https://www.infoq.com/presentations/Simple-Made-Easy). To that end, this generator creates the following files:
 
 * `docker-compose.yml`: A [Docker Compose](https://docs.docker.com/compose/) file that defines an instance of the [component-workshop](https://github.com/andrewshawcare/component-workshop).
 * `index.js`: The component implementation.
