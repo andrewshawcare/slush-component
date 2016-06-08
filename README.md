@@ -1,5 +1,5 @@
 # slush-component
-A Slush generator for web components.
+A [Slush](http://slushjs.github.io/#/) generator for web components.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ A Slush generator for web components.
   brew install node docker-toolbox
   ```
 
-3. Using NPM, install [Slush](http://slushjs.github.io/#/) and [slush-component](https://github.com/andrewshawcare/slush-component) globally:
+3. Using NPM, install Slush and `slush-component` globally:
 
   ```shell
   npm install -g slush slush-component
