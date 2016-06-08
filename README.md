@@ -9,10 +9,10 @@ A [Slush](http://slushjs.github.io/#/) generator for web components.
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
 
-2. Using Homebrew, install [Node.js](https://nodejs.org/en/) and [Docker Toolbox](https://www.docker.com/products/docker-toolbox):
+2. Using Homebrew, install [NPM](https://www.npmjs.com/) and [Docker Toolbox](https://www.docker.com/products/docker-toolbox):
 
   ```shell
-  brew install node docker-toolbox
+  brew install npm docker-toolbox
   ```
 
 3. Using NPM, install Slush and `slush-component` globally:
