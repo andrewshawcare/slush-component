@@ -1,6 +1,6 @@
 {
   "name": "slush-component",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Slush generator for web components.",
   "main": "index.js",
   "scripts": {
